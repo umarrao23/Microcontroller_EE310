@@ -9,7 +9,7 @@
 //              - Displays EE on overflow or when divide by zero
 //              - DOT segment (RD7) lights up for negative results
 //              - User inputs:2-digit number, operator, 2-digit number
-//              - Result range:?99 to +99
+//              - Result range:99 to +99
 //              - '#' confirms operation
 //              - '*' resets system
 //
