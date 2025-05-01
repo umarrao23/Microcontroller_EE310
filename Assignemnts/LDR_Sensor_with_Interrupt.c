@@ -18,7 +18,7 @@
 // Date     : May 2025
 // Inputs   : LDR Sensor on RA0 (AN0), Interrupt Button on RB1
 // Outputs  : LCD on RD0-RD7 (EN RC2 and RS RC3)
-// Version  : 1.0
+// Version  : 6.20 MP LAB X IDE
 //------------------------------------------------------------------------------
 
 
@@ -114,7 +114,7 @@ void main(void) {
             LCD_Clear();
             LCD_String_xy(1, 3, "WAITTTT");  // Centered WAIT message
 
-            for (int i = 0; i < 20; i++) {  // 20 × 500ms = 10 seconds
+            for (int i = 0; i < 20; i++) {  // 20 Ã— 500ms = 10 seconds
                 RED_LED = 1;
                 __delay_ms(250);
                 
